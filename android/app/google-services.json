@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "373660547024",
+    "project_id": "med-mind",
+    "storage_bucket": "med-mind.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373660547024:android:3d33c518d2b6de2775abd5",
+        "android_client_info": {
+          "package_name": "com.example.medmind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373660547024-pcg6l3lk3gu1s27u7buqg0p560nfu31n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNbUPTxuBcGojKa1h_c5X1LSBgaomFmq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373660547024-pcg6l3lk3gu1s27u7buqg0p560nfu31n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
