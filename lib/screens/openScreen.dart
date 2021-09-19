@@ -21,7 +21,7 @@ class OpenScreen extends StatelessWidget {
         elevation: 5.0,
         child: MaterialButton(
           onPressed: () {
-            //Navigator.pushNamed(context, '/login');
+            Navigator.pushNamed(context, '/login');
           },
           padding: EdgeInsets.fromLTRB(10.0, 15.0, 18.0, 15.0),
           minWidth: mq.size.width / 1.2,
@@ -40,7 +40,7 @@ class OpenScreen extends StatelessWidget {
         elevation: 5.0,
         child: MaterialButton(
           onPressed: () {
-            //Navigator.pushNamed(context, '/register');
+            Navigator.pushNamed(context, '/signup');
           },
           padding: EdgeInsets.fromLTRB(10.0, 15.0, 18.0, 15.0),
           minWidth: mq.size.width / 1.2,
