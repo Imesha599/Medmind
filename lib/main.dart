@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:medmind/screens/homeScreen.dart';
 import 'package:medmind/screens/loginScreen.dart';
 import 'package:medmind/screens/openScreen.dart';
+import 'package:medmind/screens/settings.dart';
 import 'package:medmind/screens/signupScreen.dart';
 
 void main() async {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginScreen(),
         '/signup': (context) => SignupScreen(),
         '/home': (context) => HomeScreen(),
+        '/settings': (context) => Settings(),
       },
     );
   }

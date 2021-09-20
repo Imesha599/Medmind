@@ -279,13 +279,8 @@ class _SignupScreenState extends State<SignupScreen> {
             children: [
               logogroup,
               SizedBox(height: mq.size.height / 25),
-              //fields,
-              //SizedBox(height: mq.size.height / 32),
               step,
               SizedBox(height: mq.size.height / 15),
-              //adduser,
-              //SizedBox(height: mq.size.height / 15),
-
               buttons
             ],
           ),

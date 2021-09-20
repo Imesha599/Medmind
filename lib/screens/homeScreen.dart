@@ -55,7 +55,9 @@ class _HomeScreenState extends State<HomeScreen> {
     );
 
     final settings = ElevatedButton(
-      onPressed: () {},
+      onPressed: () {
+        Navigator.pushNamed(context, '/settings');
+      },
       child: Padding(
         padding: const EdgeInsets.all(3.0),
         child: Column(
