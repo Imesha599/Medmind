@@ -10,40 +10,54 @@ class _SettingsState extends State<Settings> with TickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 3, vsync: this);
+    _tabController = TabController(length: 2, vsync: this);
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('TabBar Widget'),
-        bottom: TabBar(
-          controller: _tabController,
-          tabs: const <Widget>[
-            Tab(
-              icon: Icon(Icons.cloud_outlined),
-            ),
-            Tab(
-              icon: Icon(Icons.beach_access_sharp),
-            ),
-            Tab(
-              icon: Icon(Icons.brightness_5_sharp),
-            ),
-          ],
+    final mq = MediaQuery.of(context);
+    final toptabbar = TabBar(
+      controller: _tabController,
+      tabs: const <Widget>[
+        Tab(
+          icon: Icon(Icons.medical_services),
         ),
+        Tab(
+          icon: Icon(Icons.timer),
+        ),
+      ],
+    );
+    final topappbar = AppBar(
+      backgroundColor: Color(0xff1081EE),
+      title: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(
+            "Med Mind",
+            style: TextStyle(fontSize: 34.0),
+          ),
+          SizedBox(
+            width: mq.size.width / 20,
+          ),
+          Image.asset(
+            'assets/logo.png',
+            height: mq.size.height / 12,
+          )
+        ],
       ),
+      bottom: toptabbar,
+    );
+
+    return Scaffold(
+      appBar: topappbar,
       body: TabBarView(
         controller: _tabController,
         children: const <Widget>[
           Center(
-            child: Text("It's cloudy here"),
+            child: Text("Nothing to show"),
           ),
           Center(
-            child: Text("It's rainy here"),
-          ),
-          Center(
-            child: Text("It's sunny here"),
+            child: Text("Nothing to show"),
           ),
         ],
       ),
