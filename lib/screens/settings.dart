@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:medmind/screens/ferquentIllnessTab.dart';
+import 'package:medmind/screens/illnessTab.dart';
 
 class Settings extends StatefulWidget {
   @override
@@ -52,12 +54,12 @@ class _SettingsState extends State<Settings> with TickerProviderStateMixin {
       appBar: topappbar,
       body: TabBarView(
         controller: _tabController,
-        children: const <Widget>[
+        children: <Widget>[
           Center(
-            child: Text("Nothing to show"),
+            child: IllnessTab(),
           ),
           Center(
-            child: Text("Nothing to show"),
+            child: FrequentIllnessTab(),
           ),
         ],
       ),
