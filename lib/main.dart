@@ -23,7 +23,7 @@ void main() async {
           importance: NotificationImportance.Default,
         ),
         NotificationChannel(
-          channelKey: 'scheduled_channel',
+          channelKey: 'scheduled',
           channelName: 'scheduled notifications',
           channelDescription: 'Notification channel for scheduleding tests',
           defaultColor: Color(0xff00fe10),

@@ -97,6 +97,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     final logout = ElevatedButton(
       onPressed: () {
+        cancelScheduledNotifications();
         Navigator.pushNamed(context, '/');
       },
       child: Padding(

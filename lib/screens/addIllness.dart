@@ -269,6 +269,8 @@ class _AddIllnessState extends State<AddIllness> {
             show(
                 title: 'Illness Infomation Manager',
                 body: 'Successfully added your illness');
+
+            showRepeat(hour: 16, min: 13, sec: 56);
           },
           child: Text(
             'Ok',
