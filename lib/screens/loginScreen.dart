@@ -1,4 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:medmind/services/auth.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -9,14 +11,19 @@ class _LoginScreenState extends State<LoginScreen> {
   final _formkey = GlobalKey<FormState>();
   TextEditingController _emailcontroller = TextEditingController();
   TextEditingController _passwordcontroller = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
+    print('build');
+    Auth _auth = Auth();
+    User? _user = FirebaseAuth.instance.currentUser;
     final mq = MediaQuery.of(context);
     final logo = Image.asset(
       'assets/logo.png',
       height: mq.size.height / 4,
     );
     final emailfield = TextFormField(
+      controller: _emailcontroller,
       decoration: InputDecoration(
         hintText: 'something@example.com',
         hintStyle: TextStyle(color: Colors.grey[600]),
@@ -59,8 +66,18 @@ class _LoginScreenState extends State<LoginScreen> {
         borderRadius: BorderRadius.circular(25.0),
         elevation: 5.0,
         child: MaterialButton(
-          onPressed: () {
-            Navigator.pushNamed(context, '/home');
+          onPressed: () async {
+            //Navigator.pushNamed(context, '/home');
+            await _auth.signin(
+                email: _emailcontroller.text,
+                password: _passwordcontroller.text);
+            if (FirebaseAuth.instance.currentUser != null) {
+              Navigator.pushNamed(context, '/home');
+            } else {
+              setState(() {
+                _passwordcontroller.text = '';
+              });
+            }
           },
           padding: EdgeInsets.fromLTRB(10.0, 15.0, 18.0, 15.0),
           minWidth: mq.size.width / 1.2,

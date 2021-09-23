@@ -1,4 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:medmind/services/auth.dart';
 import 'package:medmind/services/notifications.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -7,6 +9,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  Auth _auth = Auth();
+  User? _user = FirebaseAuth.instance.currentUser;
   @override
   Widget build(BuildContext context) {
     final mq = MediaQuery.of(context);
@@ -97,8 +101,10 @@ class _HomeScreenState extends State<HomeScreen> {
 
     final logout = ElevatedButton(
       onPressed: () {
-        cancelScheduledNotifications();
-        Navigator.pushNamed(context, '/');
+        //cancelScheduledNotifications();
+        //Navigator.pushNamed(context, '/');
+        _auth.signout();
+        Navigator.pushNamed(context, '/login');
       },
       child: Padding(
         padding: const EdgeInsets.all(3.0),

@@ -1,4 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:medmind/services/auth.dart';
 
 class SignupScreen extends StatefulWidget {
   @override
@@ -17,6 +19,10 @@ class _SignupScreenState extends State<SignupScreen> {
   TextEditingController _gurdian2namecontroller = TextEditingController();
   TextEditingController _gurdian2telephonecontroller = TextEditingController();
   int _index = 0;
+
+  Auth _auth = Auth();
+  User? _user = FirebaseAuth.instance.currentUser;
+
   @override
   Widget build(BuildContext context) {
     final mq = MediaQuery.of(context);
@@ -36,6 +42,7 @@ class _SignupScreenState extends State<SignupScreen> {
       ],
     );
     final usernamefield = TextFormField(
+      controller: _usernamecontroller,
       decoration: InputDecoration(
         hintText: 'John doe',
         hintStyle: TextStyle(color: Colors.grey[600]),
@@ -50,6 +57,7 @@ class _SignupScreenState extends State<SignupScreen> {
     );
 
     final emailfield = TextFormField(
+      controller: _emailcontroller,
       decoration: InputDecoration(
         hintText: 'something@example.com',
         hintStyle: TextStyle(color: Colors.grey[600]),
@@ -110,6 +118,7 @@ class _SignupScreenState extends State<SignupScreen> {
     );
 
     final gurdian1namefield = TextFormField(
+      controller: _gurdian1namecontroller,
       decoration: InputDecoration(
         hintText: 'John doe',
         hintStyle: TextStyle(color: Colors.grey[600]),
@@ -124,6 +133,7 @@ class _SignupScreenState extends State<SignupScreen> {
     );
 
     final gurdian1telephonefield = TextFormField(
+      controller: _gurdian1telephonecontroller,
       decoration: InputDecoration(
         hintText: '077xxxxxxx',
         hintStyle: TextStyle(color: Colors.grey[600]),
@@ -138,6 +148,7 @@ class _SignupScreenState extends State<SignupScreen> {
     );
 
     final gurdian2namefield = TextFormField(
+      controller: _gurdian2namecontroller,
       decoration: InputDecoration(
         hintText: 'John doe',
         hintStyle: TextStyle(color: Colors.grey[600]),
@@ -152,6 +163,7 @@ class _SignupScreenState extends State<SignupScreen> {
     );
 
     final gurdian2telephonefield = TextFormField(
+      controller: _gurdian2telephonecontroller,
       decoration: InputDecoration(
         hintText: '077xxxxxxx',
         hintStyle: TextStyle(color: Colors.grey[600]),
@@ -199,7 +211,18 @@ class _SignupScreenState extends State<SignupScreen> {
         elevation: 5.0,
         child: MaterialButton(
           onPressed: () {
-            Navigator.pushNamed(context, '/login');
+            //Navigator.pushNamed(context, '/login');
+            _auth.signup(
+                email: _emailcontroller.text,
+                password: _passwordcontroller.text);
+            if (FirebaseAuth.instance.currentUser != null)
+              Navigator.pushNamed(context, '/login');
+            else {
+              setState(() {
+                _passwordcontroller.text = '';
+                _telephonecontroller.text = '';
+              });
+            }
           },
           padding: EdgeInsets.fromLTRB(10.0, 15.0, 18.0, 15.0),
           minWidth: mq.size.width / 1.2,
