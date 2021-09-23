@@ -20,11 +20,10 @@ class _SignupScreenState extends State<SignupScreen> {
   TextEditingController _gurdian2telephonecontroller = TextEditingController();
   int _index = 0;
 
-  Auth _auth = Auth();
-  User? _user = FirebaseAuth.instance.currentUser;
-
   @override
   Widget build(BuildContext context) {
+    Auth _auth = Auth();
+    User? _user = FirebaseAuth.instance.currentUser;
     final mq = MediaQuery.of(context);
     final logo = Image.asset(
       'assets/logo.png',
