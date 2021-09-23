@@ -14,11 +14,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-
-hello hello hello1234
-okay okay 123
-
-ammata siri wede hari
-
-onna mn mage branch eke idan main branch ekata ewanawa ekak
-ude eka awl giya.dan aye mn mage branch eke idan main ekata ewanawa

@@ -8,11 +8,13 @@ MERGED from /home/nethmin/Documents/Flutter/medmind/android/app/src/main/Android
 MERGED from [:firebase_auth] /home/nethmin/Documents/Flutter/medmind/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:cloud_firestore] /home/nethmin/Documents/Flutter/medmind/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /home/nethmin/Documents/Flutter/medmind/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-62:12
 MERGED from [:android_alarm_manager_plus] /home/nethmin/Documents/Flutter/medmind/build/android_alarm_manager_plus/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/cb85e813550ceb859d5d8655b705694f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e4186c293950d73169b2437483bf0308/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/2b298d710992f12b9e2e0e6710dea16b/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:20.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/eea41f5a16d4c8369c0af76edd900d48/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/bc68daddfcef12c0f038508869cd86eb/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/4137babf2606acb1e424ad3914d5b8b3/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/f263fcb179e74220f9266564bf6fa6b0/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
@@ -21,6 +23,7 @@ MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/nethmin/.gr
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/da614d13d040eef48ad74ecd5566831c/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/14e561dfe998324f0993f7eed2935f20/jetified-play-services-basement-17.1.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/4ead4a41cc8b337b790d86429dcc7418/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/7f928a994fd94f3ba8ca4ad9f4c71475/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/ca6338d80704e34353a6f6054921fc70/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/afd2d987ef6a954ce95af3f20bd0f6cf/browser-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/4e927d6984655c107bd05d46c5b4dbb8/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -35,22 +38,27 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/nethmin/.
 MERGED from [androidx.customview:customview:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/8fc41d1d021f97e69fbb6d77f999706d/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/00f3203391459c0511dc68ed11c07cc4/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/b3b81dbbcca08326c40e5acfc36670a3/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/3c8fd1bfddb99a7a7e21faa1397acdb4/core-1.1.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e491a17ea3905cf4e8cc01da5acf5904/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dba0871f5234d26df488af8865310f6f/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/af5ac34d8217e841163337c0c136aaf0/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/ad25664bdc2a6562f93cfb70f44807df/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/9dc01f80be5d003ac3d9f81c085f13fd/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/f5d3110fa213ea9ffb73eaf43b03d37d/core-1.3.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/491bbb875d3deba872bb29adb6f841f9/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e5f0c7957424a546e9da21a08a739815/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/ae5cd4776f4503a44a7812883c5a3277/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/095ae7123abe710eb5233090129df860/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/9bc5689cc711f97d4ddddcedcade4d07/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/3178d6aae403cfecf4e666bc56b562ec/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d47009c91d159cb905ecbeab78f50c20/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e93109d253daa5770e882d326958d5c5/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e491a17ea3905cf4e8cc01da5acf5904/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/07127958acbe1c10a7cd2ba092ab556f/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/a7331a80b9b2624df5abeb7dc188a4fc/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dba0871f5234d26df488af8865310f6f/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/454fd5669506c3ed5fdcf7b2ff03abe6/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d5b1978c1cc049e0af8d5529cb2f4477/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/9dc01f80be5d003ac3d9f81c085f13fd/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e5f0c7957424a546e9da21a08a739815/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/0341135a479a1847e64dc720fa73a9d9/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/8b0cce3f36a1c28e7df6e72849a13547/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/11efeec140e47cc964c7b51b01cdd88b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/1d4efdb868696ea36efd004abeb8239d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/073fa8f73d9db3fc6f27ad8d002d7cd7/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.28.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/28fc14dd71318110837ca9c868d23487/jetified-grpc-android-1.28.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/073fa8f73d9db3fc6f27ad8d002d7cd7/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 INJECTED from /home/nethmin/Documents/Flutter/medmind/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/nethmin/Documents/Flutter/medmind/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/nethmin/Documents/Flutter/medmind/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -76,6 +84,8 @@ MERGED from [:cloud_firestore] /home/nethmin/Documents/Flutter/medmind/build/clo
 MERGED from [:cloud_firestore] /home/nethmin/Documents/Flutter/medmind/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /home/nethmin/Documents/Flutter/medmind/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /home/nethmin/Documents/Flutter/medmind/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-60:19
+MERGED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-60:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/cb85e813550ceb859d5d8655b705694f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/cb85e813550ceb859d5d8655b705694f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e4186c293950d73169b2437483bf0308/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:16:5-24:19
@@ -92,12 +102,14 @@ MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/nethmin/.g
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/da614d13d040eef48ad74ecd5566831c/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/14e561dfe998324f0993f7eed2935f20/jetified-play-services-basement-17.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/14e561dfe998324f0993f7eed2935f20/jetified-play-services-basement-17.1.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/3c8fd1bfddb99a7a7e21faa1397acdb4/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/3c8fd1bfddb99a7a7e21faa1397acdb4/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/f5d3110fa213ea9ffb73eaf43b03d37d/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/f5d3110fa213ea9ffb73eaf43b03d37d/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d47009c91d159cb905ecbeab78f50c20/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d47009c91d159cb905ecbeab78f50c20/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/454fd5669506c3ed5fdcf7b2ff03abe6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/454fd5669506c3ed5fdcf7b2ff03abe6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/3c8fd1bfddb99a7a7e21faa1397acdb4/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/f5d3110fa213ea9ffb73eaf43b03d37d/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /home/nethmin/Documents/Flutter/medmind/android/app/src/main/AndroidManifest.xml:4:9-32
 	android:icon
@@ -154,6 +166,8 @@ MERGED from [:cloud_firestore] /home/nethmin/Documents/Flutter/medmind/build/clo
 MERGED from [:cloud_firestore] /home/nethmin/Documents/Flutter/medmind/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /home/nethmin/Documents/Flutter/medmind/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /home/nethmin/Documents/Flutter/medmind/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:android_alarm_manager_plus] /home/nethmin/Documents/Flutter/medmind/build/android_alarm_manager_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:android_alarm_manager_plus] /home/nethmin/Documents/Flutter/medmind/build/android_alarm_manager_plus/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/cb85e813550ceb859d5d8655b705694f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:21:5-44
@@ -164,6 +178,8 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/nethmin/.gr
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/2b298d710992f12b9e2e0e6710dea16b/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:20.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:20.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/eea41f5a16d4c8369c0af76edd900d48/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/eea41f5a16d4c8369c0af76edd900d48/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/bc68daddfcef12c0f038508869cd86eb/appcompat-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/bc68daddfcef12c0f038508869cd86eb/appcompat-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/4137babf2606acb1e424ad3914d5b8b3/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
@@ -180,6 +196,8 @@ MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/nethmin
 MERGED from [com.google.android.gms:play-services-basement:17.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/14e561dfe998324f0993f7eed2935f20/jetified-play-services-basement-17.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/4ead4a41cc8b337b790d86429dcc7418/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/4ead4a41cc8b337b790d86429dcc7418/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/7f928a994fd94f3ba8ca4ad9f4c71475/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/7f928a994fd94f3ba8ca4ad9f4c71475/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/ca6338d80704e34353a6f6054921fc70/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/ca6338d80704e34353a6f6054921fc70/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/afd2d987ef6a954ce95af3f20bd0f6cf/browser-1.0.0/AndroidManifest.xml:20:5-44
@@ -208,38 +226,48 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/nethmin
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/00f3203391459c0511dc68ed11c07cc4/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/b3b81dbbcca08326c40e5acfc36670a3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/b3b81dbbcca08326c40e5acfc36670a3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/3c8fd1bfddb99a7a7e21faa1397acdb4/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/3c8fd1bfddb99a7a7e21faa1397acdb4/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e491a17ea3905cf4e8cc01da5acf5904/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e491a17ea3905cf4e8cc01da5acf5904/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dba0871f5234d26df488af8865310f6f/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dba0871f5234d26df488af8865310f6f/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/af5ac34d8217e841163337c0c136aaf0/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/af5ac34d8217e841163337c0c136aaf0/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/ad25664bdc2a6562f93cfb70f44807df/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/ad25664bdc2a6562f93cfb70f44807df/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/9dc01f80be5d003ac3d9f81c085f13fd/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/9dc01f80be5d003ac3d9f81c085f13fd/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/f5d3110fa213ea9ffb73eaf43b03d37d/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/f5d3110fa213ea9ffb73eaf43b03d37d/core-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/491bbb875d3deba872bb29adb6f841f9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/491bbb875d3deba872bb29adb6f841f9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:17.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e5f0c7957424a546e9da21a08a739815/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e5f0c7957424a546e9da21a08a739815/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/ae5cd4776f4503a44a7812883c5a3277/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/ae5cd4776f4503a44a7812883c5a3277/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/095ae7123abe710eb5233090129df860/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/095ae7123abe710eb5233090129df860/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/9bc5689cc711f97d4ddddcedcade4d07/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/9bc5689cc711f97d4ddddcedcade4d07/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/3178d6aae403cfecf4e666bc56b562ec/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/3178d6aae403cfecf4e666bc56b562ec/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d47009c91d159cb905ecbeab78f50c20/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d47009c91d159cb905ecbeab78f50c20/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e93109d253daa5770e882d326958d5c5/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e93109d253daa5770e882d326958d5c5/lifecycle-reactivestreams-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e491a17ea3905cf4e8cc01da5acf5904/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e491a17ea3905cf4e8cc01da5acf5904/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/07127958acbe1c10a7cd2ba092ab556f/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/07127958acbe1c10a7cd2ba092ab556f/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/a7331a80b9b2624df5abeb7dc188a4fc/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/a7331a80b9b2624df5abeb7dc188a4fc/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dba0871f5234d26df488af8865310f6f/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dba0871f5234d26df488af8865310f6f/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/454fd5669506c3ed5fdcf7b2ff03abe6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/454fd5669506c3ed5fdcf7b2ff03abe6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d5b1978c1cc049e0af8d5529cb2f4477/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d5b1978c1cc049e0af8d5529cb2f4477/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/9dc01f80be5d003ac3d9f81c085f13fd/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/9dc01f80be5d003ac3d9f81c085f13fd/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e5f0c7957424a546e9da21a08a739815/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e5f0c7957424a546e9da21a08a739815/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/0341135a479a1847e64dc720fa73a9d9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/0341135a479a1847e64dc720fa73a9d9/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/8b0cce3f36a1c28e7df6e72849a13547/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/8b0cce3f36a1c28e7df6e72849a13547/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/11efeec140e47cc964c7b51b01cdd88b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/11efeec140e47cc964c7b51b01cdd88b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/1d4efdb868696ea36efd004abeb8239d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/1d4efdb868696ea36efd004abeb8239d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/073fa8f73d9db3fc6f27ad8d002d7cd7/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/073fa8f73d9db3fc6f27ad8d002d7cd7/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/28fc14dd71318110837ca9c868d23487/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/28fc14dd71318110837ca9c868d23487/jetified-grpc-android-1.28.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/073fa8f73d9db3fc6f27ad8d002d7cd7/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/073fa8f73d9db3fc6f27ad8d002d7cd7/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 INJECTED from /home/nethmin/Documents/Flutter/medmind/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/nethmin/Documents/Flutter/medmind/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -294,6 +322,92 @@ ADDED from [:firebase_core] /home/nethmin/Documents/Flutter/medmind/build/fireba
 		ADDED from [:firebase_core] /home/nethmin/Documents/Flutter/medmind/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_core] /home/nethmin/Documents/Flutter/medmind/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-86
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:10:5-86
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:10:5-86
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-87
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:11:5-87
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:11:5-87
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-84
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-88
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:14:5-88
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:14:5-88
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-85
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-81
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:17:5-81
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-83
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:18:5-83
+MERGED from [com.github.arturogutierrez:badges:1.0.5] /home/nethmin/.gradle/caches/transforms-2/files-2.1/dfb6a37329247d6d618f1c7a79d35589/jetified-badges-1.0.5/AndroidManifest.xml:18:5-83
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-80
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:22-78
+receiver#me.carda.awesome_notifications.notifications.broadcastReceivers.DismissedNotificationReceiver
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:41:9-130
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:41:19-127
+receiver#me.carda.awesome_notifications.notifications.broadcastReceivers.ScheduledNotificationReceiver
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:42:9-130
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:42:19-127
+receiver#me.carda.awesome_notifications.notifications.broadcastReceivers.KeepOnTopActionReceiver
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:43:9-124
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:43:19-121
+receiver#me.carda.awesome_notifications.notifications.broadcastReceivers.RefreshNotificationBootReceiver
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:44:9-54:20
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:44:19-129
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-53:29
+category#android.intent.category.DEFAULT
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:46:27-73
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-79
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:48:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:49:17-86
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:49:25-83
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:50:17-84
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:50:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:51:17-82
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:51:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:52:17-82
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:52:25-79
+receiver#androidx.media.session.MediaButtonReceiver
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:55:9-59:20
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:55:19-76
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:56:13-58:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from [:awesome_notifications] /home/nethmin/Documents/Flutter/medmind/build/awesome_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:57:25-74
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/cb85e813550ceb859d5d8655b705694f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-firestore:23.0.3] /home/nethmin/.gradle/caches/transforms-2/files-2.1/e4186c293950d73169b2437483bf0308/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:13:5-79
@@ -320,10 +434,6 @@ action#android.intent.action.VIEW
 ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/cb85e813550ceb859d5d8655b705694f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/cb85e813550ceb859d5d8655b705694f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/cb85e813550ceb859d5d8655b705694f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/cb85e813550ceb859d5d8655b705694f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
 category#android.intent.category.BROWSABLE
 ADDED from [com.google.firebase:firebase-auth:21.0.1] /home/nethmin/.gradle/caches/transforms-2/files-2.1/cb85e813550ceb859d5d8655b705694f/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
 	android:name
@@ -402,3 +512,13 @@ ADDED from [com.google.android.gms:play-services-basement:17.1.0] /home/nethmin/
 		ADDED from [com.google.android.gms:play-services-basement:17.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/14e561dfe998324f0993f7eed2935f20/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:17.1.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/14e561dfe998324f0993f7eed2935f20/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d47009c91d159cb905ecbeab78f50c20/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d47009c91d159cb905ecbeab78f50c20/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d47009c91d159cb905ecbeab78f50c20/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d47009c91d159cb905ecbeab78f50c20/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /home/nethmin/.gradle/caches/transforms-2/files-2.1/d47009c91d159cb905ecbeab78f50c20/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79

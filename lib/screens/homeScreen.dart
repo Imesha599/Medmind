@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medmind/services/notifications.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -37,7 +38,9 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ));
     final circlebutton = ElevatedButton(
-      onPressed: () {},
+      onPressed: () {
+        show(title: 'Emergancy Alart', body: 'Your request has been sent');
+      },
       child: Text(
         'Emergancy',
         style: TextStyle(fontSize: 28.0),
@@ -74,7 +77,9 @@ class _HomeScreenState extends State<HomeScreen> {
     );
 
     final addillness = ElevatedButton(
-      onPressed: () {},
+      onPressed: () {
+        Navigator.pushNamed(context, '/addillness');
+      },
       child: Padding(
         padding: const EdgeInsets.all(3.0),
         child: Column(
@@ -91,7 +96,10 @@ class _HomeScreenState extends State<HomeScreen> {
     );
 
     final logout = ElevatedButton(
-      onPressed: () {},
+      onPressed: () {
+        cancelScheduledNotifications();
+        Navigator.pushNamed(context, '/');
+      },
       child: Padding(
         padding: const EdgeInsets.all(3.0),
         child: Column(

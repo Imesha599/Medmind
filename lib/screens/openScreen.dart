@@ -1,6 +1,48 @@
+import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/material.dart';
 
-class OpenScreen extends StatelessWidget {
+class OpenScreen extends StatefulWidget {
+  @override
+  _OpenScreenState createState() => _OpenScreenState();
+}
+
+class _OpenScreenState extends State<OpenScreen> {
+  @override
+  void initState() {
+    super.initState();
+    AwesomeNotifications().isNotificationAllowed().then((isAllowed) {
+      if (!isAllowed) {
+        showDialog(
+            context: context,
+            builder: (context) => AlertDialog(
+                  title: Text('Allow Notification'),
+                  content: Text('Our app will send you notifications'),
+                  actions: [
+                    TextButton(
+                        onPressed: () {
+                          Navigator.pop(context);
+                        },
+                        child: Text(
+                          'Don\'t allow',
+                          style: TextStyle(fontSize: 18.0),
+                        )),
+                    TextButton(
+                        onPressed: () => AwesomeNotifications()
+                            .requestPermissionToSendNotifications()
+                            .then((_) => Navigator.pop(context)),
+                        child: Text(
+                          'Allow',
+                          style: TextStyle(fontSize: 18.0),
+                        )),
+                  ],
+                ));
+        // Insert here your friendly dialog box before call the request method
+        // This is very important to not harm the user experience
+
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final mq = MediaQuery.of(context);
