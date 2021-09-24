@@ -10,9 +10,11 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   Auth _auth = Auth();
-  User? _user = FirebaseAuth.instance.currentUser;
+
   @override
   Widget build(BuildContext context) {
+    User? _user = FirebaseAuth.instance.currentUser;
+    print(_user);
     final mq = MediaQuery.of(context);
     final notify = Row(
       mainAxisAlignment: MainAxisAlignment.end,

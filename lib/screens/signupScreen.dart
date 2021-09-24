@@ -1,6 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:medmind/services/auth.dart';
+import 'package:medmind/services/curd.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class SignupScreen extends StatefulWidget {
   @override
@@ -24,6 +26,7 @@ class _SignupScreenState extends State<SignupScreen> {
   Widget build(BuildContext context) {
     Auth _auth = Auth();
     User? _user = FirebaseAuth.instance.currentUser;
+    Curd db = Curd();
     final mq = MediaQuery.of(context);
     final logo = Image.asset(
       'assets/logo.png',
@@ -209,14 +212,23 @@ class _SignupScreenState extends State<SignupScreen> {
         borderRadius: BorderRadius.circular(25.0),
         elevation: 5.0,
         child: MaterialButton(
-          onPressed: () {
+          onPressed: () async {
             //Navigator.pushNamed(context, '/login');
             _auth.signup(
                 email: _emailcontroller.text,
                 password: _passwordcontroller.text);
-            if (FirebaseAuth.instance.currentUser != null)
-              Navigator.pushNamed(context, '/login');
-            else {
+            if (FirebaseAuth.instance.currentUser != null) {
+              await db
+                  .addUser(
+                      name: _usernamecontroller.text,
+                      email: _emailcontroller.text,
+                      telephone: _telephonecontroller.text,
+                      g1Name: _gurdian1namecontroller.text,
+                      g1Tele: _gurdian1telephonecontroller.text,
+                      g2Name: _gurdian2namecontroller.text,
+                      g2Tele: _gurdian2telephonecontroller.text)
+                  .then((value) => Navigator.pushNamed(context, '/login'));
+            } else {
               setState(() {
                 _passwordcontroller.text = '';
                 _telephonecontroller.text = '';
