@@ -74,7 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             Icon(Icons.settings, size: 30),
             Text(
-              "Settings",
+              "Illness",
               style: TextStyle(fontSize: 15.0),
             ),
           ],

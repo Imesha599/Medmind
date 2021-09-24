@@ -1,4 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:medmind/services/curd.dart';
 import 'package:medmind/services/notifications.dart';
 
 class AddIllness extends StatefulWidget {
@@ -43,13 +45,16 @@ class _AddIllnessState extends State<AddIllness> {
   Widget clockm = Text('');
   Widget clockn = Text('');
   Widget clockni = Text('');
-  String nightTime = '';
-  String morningTime = '';
-  String noonTime = '';
-
+  String? nightTime;
+  String? morningTime;
+  String? noonTime;
+  Curd db = Curd();
+  TextEditingController _illnesscontroller = TextEditingController();
   @override
   Widget build(BuildContext context) {
     final mq = MediaQuery.of(context);
+    User? _user = FirebaseAuth.instance.currentUser;
+
     final topappbar = AppBar(
         backgroundColor: Color(0xff1081EE),
         title: Row(
@@ -70,6 +75,7 @@ class _AddIllnessState extends State<AddIllness> {
         ));
 
     final field = TextFormField(
+      controller: _illnesscontroller,
       decoration: InputDecoration(
         labelText: 'Illness',
         labelStyle: TextStyle(
@@ -175,7 +181,7 @@ class _AddIllnessState extends State<AddIllness> {
         Row(
           children: [
             Container(
-              child: Text('Noon'),
+              child: Text('After Noon'),
               width: mq.size.width / 4,
             ),
             Switch(
@@ -266,11 +272,20 @@ class _AddIllnessState extends State<AddIllness> {
       children: [
         ElevatedButton(
           onPressed: () {
-            show(
-                title: 'Illness Infomation Manager',
-                body: 'Successfully added your illness');
-
-            showRepeat(hour: 16, min: 13, sec: 56);
+            db
+                .addIllnessInfo(
+                    user_id: _user!.uid,
+                    ill_name: _illnesscontroller.text,
+                    morning: morningTime,
+                    noon: noonTime,
+                    night: nightTime)
+                .then((value) => {
+                      show(
+                          title: 'Illness Infomation Manager',
+                          body: 'Successfully added your illness'),
+                      Navigator.pushNamed(context, '/settings')
+                    })
+                .catchError((e) => print('error is:${e}'));
           },
           child: Text(
             'Ok',
