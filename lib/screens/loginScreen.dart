@@ -39,6 +39,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
     final passwordfield = TextFormField(
       controller: _passwordcontroller,
+      obscureText: true,
       decoration: InputDecoration(
         //hintText: 'something@example.com',
         hintStyle: TextStyle(color: Colors.grey[600]),

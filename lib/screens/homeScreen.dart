@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
       mainAxisAlignment: MainAxisAlignment.end,
       children: [
         Image.asset(
-          'assets/bell.png',
+          'assets/cancel_bell.png',
           height: mq.size.height / 20,
         ),
       ],

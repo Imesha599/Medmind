@@ -75,6 +75,7 @@ class _SignupScreenState extends State<SignupScreen> {
 
     final passwordfield = TextFormField(
       controller: _passwordcontroller,
+      obscureText: true,
       decoration: InputDecoration(
         //hintText: 'something@example.com',
         hintStyle: TextStyle(color: Colors.grey[600]),

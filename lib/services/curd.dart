@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/material.dart';
 
 class Curd {
   CollectionReference user = FirebaseFirestore.instance.collection('Users');
@@ -52,10 +53,19 @@ class Curd {
     }
   }
 
-  Future<void> getData() async {
-    FirebaseFirestore.instance
+  Future<Widget> getData() async {
+    var text = <Widget>[];
+    await FirebaseFirestore.instance
         .collection('Illness')
         .get()
-        .then((values) => {print(values.toString())});
+        .then((QuerySnapshot querySnapshot) {
+      querySnapshot.docs.forEach((doc) {
+        //text = Text(doc["first_name"]);
+        text.add(Text(doc['illness_name']));
+      });
+    });
+    return Future(() => Column(
+          children: text,
+        ));
   }
 }
