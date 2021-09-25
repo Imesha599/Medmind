@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
         show(title: 'Emergancy Alart', body: 'Your request has been sent');
       },
       child: Text(
-        'Emergancy',
+        'Emergency',
         style: TextStyle(fontSize: 28.0),
       ),
       style: ButtonStyle(
@@ -122,6 +122,56 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
     );
+
+    final dialog = AlertDialog(
+      title: Text('Reset settings?'),
+      content:
+          Text('This will reset your device to its default factory settings.'),
+      actions: [
+        ElevatedButton(
+          //textColor: Color(0xFF6200EE),
+          onPressed: () {},
+          child: Text('CANCEL'),
+        ),
+        ElevatedButton(
+          //textColor: Color(0xFF6200EE),
+          onPressed: () {},
+          child: Text('ACCEPT'),
+        ),
+      ],
+    );
+
+    final subcription = TextButton(
+      onPressed: () {
+        //cancelScheduledNotifications();
+        //Navigator.pushNamed(context, '/');
+        //return dialog;
+        //_auth.signout();
+        //Navigator.pushNamed(context, '/login');
+      },
+      child: Padding(
+        padding: const EdgeInsets.all(3.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset(
+              'assets/diamond.png',
+              height: mq.size.height / 16,
+            ),
+            Text(
+              "Premium",
+              style: TextStyle(fontSize: 15.0),
+            ),
+            Text(
+              "Subscription",
+              style: TextStyle(fontSize: 15.0),
+            ),
+            //Icon(Icons., size: 30),
+          ],
+        ),
+      ),
+    );
+
     final buttons = Row(
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
@@ -130,6 +180,36 @@ class _HomeScreenState extends State<HomeScreen> {
         logout,
       ],
     );
+
+    final sub = Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      children: [
+        subcription,
+      ],
+    );
+
+    /*final buttons = Column(
+      children: [
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            settings,
+            addillness,
+          ],
+        ),
+        SizedBox(
+          height: mq.size.height / 20,
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            subcription,
+            logout,
+          ],
+        )
+      ],
+    );*/
+
     return Scaffold(
       backgroundColor: Color(0xffA3D9FF),
       appBar: topappbar,
@@ -146,6 +226,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 height: mq.size.height / 10,
               ),
               buttons,
+              SizedBox(
+                height: mq.size.height / 20,
+              ),
+              sub,
             ],
           )),
     );

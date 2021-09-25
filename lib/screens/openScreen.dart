@@ -1,4 +1,6 @@
 import 'package:awesome_notifications/awesome_notifications.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 class OpenScreen extends StatefulWidget {
@@ -45,6 +47,8 @@ class _OpenScreenState extends State<OpenScreen> {
 
   @override
   Widget build(BuildContext context) {
+    //if (FirebaseAuth.instance.currentUser != null)
+    //Navigator.pushNamed(context, '/home');
     final mq = MediaQuery.of(context);
     final logo = Image.asset(
       'assets/logo.png',

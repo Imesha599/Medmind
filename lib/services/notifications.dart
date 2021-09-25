@@ -25,16 +25,25 @@ Future<void> showRepeat({int hour = 0, min = 0, sec = 0}) async {
       content: NotificationContent(
           id: createUniqueId(),
           channelKey: 'scheduled',
-          title: 'Notification at every single minute',
-          body:
-              'This notification was schedule to repeat at every single minute.',
+          title: 'It\'s Your medicine time',
+          body: 'Did you take your madicine !',
           notificationLayout: NotificationLayout.BigPicture,
           bigPicture: 'asset://assets/images/melted-clock.png'),
+      actionButtons: [
+        NotificationActionButton(
+          key: 'MARK_DONE',
+          label: 'Mark Done',
+        ),
+      ],
       schedule: NotificationCalendar(
           hour: hour, minute: min, second: sec, repeats: true));
+
   print('created');
 }
 
 Future<void> cancelScheduledNotifications() async {
   await AwesomeNotifications().cancelAllSchedules();
 }
+
+
+//Did you take your madicine for Couch
