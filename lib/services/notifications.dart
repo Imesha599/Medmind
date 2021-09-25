@@ -32,6 +32,7 @@ Future<void> showRepeat({int hour = 0, min = 0, sec = 0}) async {
           bigPicture: 'asset://assets/images/melted-clock.png'),
       schedule: NotificationCalendar(
           hour: hour, minute: min, second: sec, repeats: true));
+  print('created');
 }
 
 Future<void> cancelScheduledNotifications() async {

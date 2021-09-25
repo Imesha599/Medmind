@@ -283,6 +283,20 @@ class _AddIllnessState extends State<AddIllness> {
                       show(
                           title: 'Illness Infomation Manager',
                           body: 'Successfully added your illness'),
+                      print('time is    :' + morningTime!.substring(3, 5)),
+                      showRepeat(
+                          hour: int.parse(morningTime!.substring(0, 2)),
+                          min: int.parse(morningTime!.substring(3, 5)),
+                          sec: 0),
+                      showRepeat(
+                          hour: int.parse(noonTime!.substring(0, 2)),
+                          min: int.parse(noonTime!.substring(3, 5)),
+                          sec: 0),
+                      showRepeat(
+                          hour: int.parse(nightTime!.substring(0, 2)),
+                          min: int.parse(nightTime!.substring(3, 5)),
+                          sec: 0),
+                      print('time is    :' + morningTime!.substring(2, 4)),
                       Navigator.pushNamed(context, '/settings')
                     })
                 .catchError((e) => print('error is:${e}'));
